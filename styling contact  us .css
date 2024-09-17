@@ -1,0 +1,98 @@
+*{
+
+
+
+    box-sizing: border-box;
+}
+body{
+
+border: 1px solid black;
+padding: 5%;
+margin: 5%;
+background-color: rgba(11, 12, 14, 0.177);
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-style:normal;
+border-radius: 4px;
+
+
+
+
+}
+h1{
+
+text-align: center;
+background-color: rgb(215, 255, 175);
+text-shadow: 1px 1px 2px black;
+text-decoration:underline;
+border: 1px solid black;
+border-radius: 6px;
+padding: 10px; 
+}
+h4{
+background-color: rgb(250, 155, 155);
+border: 1px solid black;
+border-radius: 4px;
+display: inline-block;
+padding: 5px;
+margin: px;
+
+
+
+
+}
+textarea{
+
+
+
+width: 100%;
+
+
+
+
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+
+
+textarea
+{
+
+padding: 1%;
+width: 100%;
+background-color: rgb(233, 234, 219);
+border-radius: 10px;
+
+
+}
+input[type="submit"]
+{
+
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+text-shadow: 1px 1px 2px black;
+
+
+}
+input[type="submit"]:hover
+{
+
+
+background-color: burlywood;
+
+
+}
+input[type="text"]:hover,
+input[type="email"]:hover,
+input[type="number"]:hover,
+
+
+textarea:hover{
+
+
+background-color: rgb(237, 245, 234);
+
+
+
+}
